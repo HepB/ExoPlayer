@@ -40,8 +40,3 @@ dependencies {
     implementation project(modulePrefix + 'library-core')
     androidTestImplementation 'androidx.test:runner:' + testRunnerVersion
 }
-
-ext {
-    javadocTitle = 'Opus extension'
-}
-apply from: '../../javadoc_library.gradle'

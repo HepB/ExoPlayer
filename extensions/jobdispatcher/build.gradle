@@ -37,11 +37,6 @@ dependencies {
 }
 
 ext {
-    javadocTitle = 'Firebase JobDispatcher extension'
-}
-apply from: '../../javadoc_library.gradle'
-
-ext {
     releaseArtifact = 'extension-jobdispatcher'
     releaseDescription = 'Firebase JobDispatcher extension for ExoPlayer.'
 }

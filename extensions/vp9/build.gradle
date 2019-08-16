@@ -42,8 +42,3 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:' + testRunnerVersion
     androidTestImplementation 'com.google.truth:truth:' + truthVersion
 }
-
-ext {
-    javadocTitle = 'VP9 extension'
-}
-apply from: '../../javadoc_library.gradle'

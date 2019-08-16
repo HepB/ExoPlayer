@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.android.exoplayer2.ext.opus.test">
+    package="com.google.android.pexoplayer2.ext.opus.test">
 
   <application android:debuggable="true"
       android:allowBackup="false"
