@@ -15,26 +15,26 @@
 -->
 <resources>
 
-  <item name="exo_content_frame" type="id"/>
-  <item name="exo_shutter" type="id"/>
-  <item name="exo_subtitles" type="id"/>
-  <item name="exo_artwork" type="id"/>
-  <item name="exo_controller_placeholder" type="id"/>
-  <item name="exo_controller" type="id"/>
-  <item name="exo_ad_overlay" type="id"/>
-  <item name="exo_overlay" type="id"/>
-  <item name="exo_play" type="id"/>
-  <item name="exo_pause" type="id"/>
-  <item name="exo_rew" type="id"/>
-  <item name="exo_ffwd" type="id"/>
-  <item name="exo_prev" type="id"/>
-  <item name="exo_next" type="id"/>
-  <item name="exo_shuffle" type="id"/>
-  <item name="exo_repeat_toggle" type="id"/>
-  <item name="exo_duration" type="id"/>
-  <item name="exo_position" type="id"/>
-  <item name="exo_progress" type="id"/>
-  <item name="exo_buffering" type="id"/>
-  <item name="exo_error_message" type="id"/>
+  <item name="pexo_content_frame" type="id"/>
+  <item name="pexo_shutter" type="id"/>
+  <item name="pexo_subtitles" type="id"/>
+  <item name="pexo_artwork" type="id"/>
+  <item name="pexo_controller_placeholder" type="id"/>
+  <item name="pexo_controller" type="id"/>
+  <item name="pexo_ad_overlay" type="id"/>
+  <item name="pexo_overlay" type="id"/>
+  <item name="pexo_play" type="id"/>
+  <item name="pexo_pause" type="id"/>
+  <item name="pexo_rew" type="id"/>
+  <item name="pexo_ffwd" type="id"/>
+  <item name="pexo_prev" type="id"/>
+  <item name="pexo_next" type="id"/>
+  <item name="pexo_shuffle" type="id"/>
+  <item name="pexo_repeat_toggle" type="id"/>
+  <item name="pexo_duration" type="id"/>
+  <item name="pexo_position" type="id"/>
+  <item name="pexo_progress" type="id"/>
+  <item name="pexo_buffering" type="id"/>
+  <item name="pexo_error_message" type="id"/>
 
 </resources>

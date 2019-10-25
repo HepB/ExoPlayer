@@ -383,13 +383,13 @@ public class PlayerView extends FrameLayout implements AdsLoader.AdViewProvider 
     setDescendantFocusability(FOCUS_AFTER_DESCENDANTS);
 
     // Content frame.
-    contentFrame = findViewById(R.id.exo_content_frame);
+    contentFrame = findViewById(R.id.pexo_content_frame);
     if (contentFrame != null) {
       setResizeModeRaw(contentFrame, resizeMode);
     }
 
     // Shutter view.
-    shutterView = findViewById(R.id.exo_shutter);
+    shutterView = findViewById(R.id.pexo_shutter);
     if (shutterView != null && shutterColorSet) {
       shutterView.setBackgroundColor(shutterColor);
     }
@@ -421,41 +421,41 @@ public class PlayerView extends FrameLayout implements AdsLoader.AdViewProvider 
     }
 
     // Ad overlay frame layout.
-    adOverlayFrameLayout = findViewById(R.id.exo_ad_overlay);
+    adOverlayFrameLayout = findViewById(R.id.pexo_ad_overlay);
 
     // Overlay frame layout.
-    overlayFrameLayout = findViewById(R.id.exo_overlay);
+    overlayFrameLayout = findViewById(R.id.pexo_overlay);
 
     // Artwork view.
-    artworkView = findViewById(R.id.exo_artwork);
+    artworkView = findViewById(R.id.pexo_artwork);
     this.useArtwork = useArtwork && artworkView != null;
     if (defaultArtworkId != 0) {
       defaultArtwork = ContextCompat.getDrawable(getContext(), defaultArtworkId);
     }
 
     // Subtitle view.
-    subtitleView = findViewById(R.id.exo_subtitles);
+    subtitleView = findViewById(R.id.pexo_subtitles);
     if (subtitleView != null) {
       subtitleView.setUserDefaultStyle();
       subtitleView.setUserDefaultTextSize();
     }
 
     // Buffering view.
-    bufferingView = findViewById(R.id.exo_buffering);
+    bufferingView = findViewById(R.id.pexo_buffering);
     if (bufferingView != null) {
       bufferingView.setVisibility(View.GONE);
     }
     this.showBuffering = showBuffering;
 
     // Error message view.
-    errorMessageView = findViewById(R.id.exo_error_message);
+    errorMessageView = findViewById(R.id.pexo_error_message);
     if (errorMessageView != null) {
       errorMessageView.setVisibility(View.GONE);
     }
 
     // Playback control view.
-    PlayerControlView customController = findViewById(R.id.exo_controller);
-    View controllerPlaceholder = findViewById(R.id.exo_controller_placeholder);
+    PlayerControlView customController = findViewById(R.id.pexo_controller);
+    View controllerPlaceholder = findViewById(R.id.pexo_controller_placeholder);
     if (customController != null) {
       this.controller = customController;
     } else if (controllerPlaceholder != null) {

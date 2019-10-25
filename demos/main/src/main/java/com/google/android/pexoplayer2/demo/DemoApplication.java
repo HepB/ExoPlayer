@@ -16,6 +16,7 @@
 package com.google.android.pexoplayer2.demo;
 
 import android.app.Application;
+import com.google.android.exoplayer2.demo.BuildConfig;
 import com.google.android.pexoplayer2.offline.DownloadManager;
 import com.google.android.pexoplayer2.offline.DownloaderConstructorHelper;
 import com.google.android.pexoplayer2.upstream.DataSource;
