@@ -25,7 +25,7 @@
   </application>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer2.ext.opus.test"
+      android:targetPackage="com.google.android.pexoplayer2.ext.opus.test"
     android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

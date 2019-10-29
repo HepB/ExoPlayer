@@ -40,7 +40,7 @@ import com.google.android.pexoplayer2.util.Util;
  * <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
  *
  * <service
- *     android:name="com.google.android.exoplayer2.ext.jobdispatcher.JobDispatcherScheduler$JobDispatcherSchedulerService"
+ *     android:name="com.google.android.pexoplayer2.ext.jobdispatcher.JobDispatcherScheduler$JobDispatcherSchedulerService"
  *     android:exported="false">
  *   <intent-filter>
  *     <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
